@@ -15,7 +15,8 @@
     "ignoreDeps": [
       "sass-loader",
       "webpack-dev-server",
-      "typescript"
+      "typescript",
+      "@sentry/browser"
     ]
   },
   "ignorePaths": [
