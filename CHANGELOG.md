@@ -1,5 +1,83 @@
 # Changelog
 
+## 4.39.0 (2020-02-21)
+
+#### :rocket: New Feature
+
+- `yoshi-server`
+  - [#1992](https://github.com/wix/yoshi/pull/1992) Yoshi Server: add a `requireHttps` middleware ([@yanivefraim](https://github.com/yanivefraim))
+- `yoshi-server-testing`
+  - [#1988](https://github.com/wix/yoshi/pull/1988) Yoshi Server Testing: better error messages ([@yanivefraim](https://github.com/yanivefraim))
+
+## 4.38.0 (2020-02-20)
+
+#### :boom: Breaking Change
+
+- `yoshi-flow-app`, `yoshi-flow-bm`, `yoshi-flow-editor`, `yoshi-flow-legacy`, `yoshi-flow-monorepo`
+  - [#1978](https://github.com/wix/yoshi/pull/1978) Removing `--ssl` `--https` options ([@Gongreg](https://github.com/Gongreg))
+
+## 4.37.5 (2020-02-20)
+
+#### :bug: Bug Fix
+
+- `yoshi-common`
+  - [#1984](https://github.com/wix/yoshi/pull/1984) use a separate runtime chunk only for target web ([@ronami](https://github.com/ronami))
+
+#### :house: Internal
+
+- [#1985](https://github.com/wix/yoshi/pull/1985) Tests: increase timeout for flaky TS test ([@yanivefraim](https://github.com/yanivefraim))
+
+## 4.37.4 (2020-02-19)
+
+#### :nail_care: Polish
+
+- `yoshi-flow-legacy`
+  - [#1981](https://github.com/wix/yoshi/pull/1981) Yoshi Server: add support for mocha ([@yanivefraim](https://github.com/yanivefraim))
+
+## 4.37.3 (2020-02-19)
+
+#### :bug: Bug Fix
+
+- `create-yoshi-app`, `yoshi-common`, `yoshi-flow-editor-runtime`, `yoshi-flow-editor`
+  - [#1983](https://github.com/wix/yoshi/pull/1983) Bump to `tpa-style-webpack-plugin@1.3.13` to fix a bug with enhanced tpa style option usage ([@sagish](https://github.com/sagish))
+
+## 4.37.2 (2020-02-19)
+
+#### :bug: Bug Fix
+
+- `yoshi-flow-monorepo`
+  - [#1982](https://github.com/wix/yoshi/pull/1982) Add content hash to client `webworker` bundle ([@roymiloh](https://github.com/roymiloh))
+
+#### :house: Internal
+
+- `create-yoshi-app`
+  - [#1976](https://github.com/wix/yoshi/pull/1976) fix(create-yoshi-app): Increase timeout time for `h2` selector for viewer. ([@yavorsky](https://github.com/yavorsky))
+
+## 4.37.1 (2020-02-18)
+
+#### :nail_care: Polish
+
+- `yoshi-flow-legacy`, `yoshi-flow-monorepo`
+  - [#1973](https://github.com/wix/yoshi/pull/1973) Fixed a bug where empty dependencies won't update `tsconfig.json` ([@amiryonatan](https://github.com/amiryonatan))
+
+## 4.37.0 (2020-02-17)
+
+#### :rocket: New Feature
+
+- `create-yoshi-app`
+  - [#1967](https://github.com/wix/yoshi/pull/1967) [create-yoshi-app][out-of-iframe] - Remove wix-ui-core dependency ([@shlomitc](https://github.com/shlomitc))
+
+#### :bug: Bug Fix
+
+- `jest-yoshi-preset`
+  - [#1971](https://github.com/wix/yoshi/pull/1971) Yoshi Server: do not apply Yoshi Server Jest Transform in e2e tests ([@yanivefraim](https://github.com/yanivefraim))
+- `create-yoshi-app`
+  - [#1972](https://github.com/wix/yoshi/pull/1972) FEDINF-488 - moved the validation of node version to the start of the… ([@asaf-yonay](https://github.com/asaf-yonay))
+
+#### :house: Internal
+
+- [#1966](https://github.com/wix/yoshi/pull/1966) Fix website publishing: enforce registry to be the public registry for the website ([@ranyitz](https://github.com/ranyitz))
+
 ## 4.36.0 (2020-02-16)
 
 #### :rocket: New Feature
